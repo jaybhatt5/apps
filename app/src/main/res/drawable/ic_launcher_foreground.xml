@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep board backing card -->
+    <path
+        android:fillColor="#151922"
+        android:strokeColor="#4385F4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,24 h60 a6,6 0 0 1 6,6 v60 a6,6 0 0 1 -6,6 h-60 a6,6 0 0 1 -6,-6 v-60 a6,6 0 0 1 6,-6 z" />
+
+    <!-- Sudoku thick horizontal/vertical lines dividing blocks -->
+    <path
+        android:strokeColor="#2C3445"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M18,48 h72 M18,72 h72" />
+
+    <path
+        android:strokeColor="#2C3445"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M42,24 v72 M66,24 v72" />
+
+    <!-- Intricate Crown of accomplishment in center block -->
+    <path
+        android:fillColor="#00B4D8"
+        android:strokeColor="#4385F4"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M46,65 h16 l3,-16 l-7,5 l-4,-10 l-4,10 l-7,-5 z" />
+
+    <path
+        android:fillColor="#EBCB8B"
+        android:pathData="M47,68 h14 v2 h-14 z" />
+</vector>
